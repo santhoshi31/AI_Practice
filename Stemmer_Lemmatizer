@@ -1,0 +1,10 @@
+from nltk.stem import PorterStemmer, WordNetLemmatizer
+nltk.download('wordmet')
+
+stemmer = PorterStemmer()
+lemmatizer = WordNetLemmatizer()
+
+word  = ["running", "better", "cars"]
+
+for w in word:
+   print(w, '->', stemmer..stem(w), '|', lemmatizer.lemmatizer(w))
