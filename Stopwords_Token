@@ -1,0 +1,10 @@
+from nltk.corpus import stopwords
+from nltk.tokenize import tokenize
+
+nltk.download ('stopwords')
+
+text( = "This is my year i have got a 3- 4l /month salary in remote job"
+tokens = word_tokenize(text)
+
+filtered = [ w for w in tokens if.lower() not in stopwords.words('english')
+print(filtered)
